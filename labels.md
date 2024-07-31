@@ -28,10 +28,11 @@ graph TD
   classDef green fill:#16b552,stroke:#000,stroke-width:2px,color:#fff
   classDef red fill:#ed2633,stroke:#000,stroke-width:2px,color:#fff
   classDef magenta fill:magenta,stroke:#000,stroke-width:2px,color:#fff
+  classDef s_p fill:#cf0029,stroke:#000,stroke-width:2px,color:#f7f7f7
 
-  A2([Synthetic Data]):::red
-  B2([Moody's 20+ Year Aaa Bond]):::red
-  C2([EUR->USD Exchange Rates]):::red
+  A2([Synthetic Data]):::s_p
+  B2([Moody's 20+ Year Aaa Bond]):::s_p
+  C2([EUR->USD Exchange Rates]):::s_p
 ```
 
 
@@ -45,10 +46,11 @@ graph TD
   classDef green fill:#16b552,stroke:#000,stroke-width:2px,color:#fff
   classDef red fill:#ed2633,stroke:#000,stroke-width:2px,color:#fff
   classDef magenta fill:magenta,stroke:#000,stroke-width:2px,color:#fff
+  classDef s_p fill:#cf0029,stroke:#000,stroke-width:2px,color:#f7f7f7
 
-  A3[[ARIMA]]:::green
-  B3[[TimeGPT]]:::green
-  C3[[NLinear/DLinear]]:::green
+  A3[[ARIMA]]:::s_p
+  B3[[TimeGPT]]:::s_p
+  C3[[NLinear/DLinear]]:::s_p
 
 ```
 
