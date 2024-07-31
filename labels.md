@@ -9,20 +9,20 @@ graph TD
   classDef red fill:#ed2633,stroke:#000,stroke-width:2px,color:#fff
   classDef magenta fill:magenta,stroke:#000,stroke-width:2px,color:#fff
 
-  puts "Data Sources version 1"
-  puts ""
+  puts 'Data Sources'
+  
   A1[(Synthetic Data)]:::blue
   B1[(Moody's 20+ Year Aaa Bond)]:::blue
   C1[(EUR->USD Exchange Rates)]:::blue
 
-  puts "Data Sources version 2"
-  puts ""
+  puts 'Data Sources'
+
   A2([Synthetic Data]):::red
   B2([Moody's 20+ Year Aaa Bond]):::red
   C2([EUR->USD Exchange Rates]):::red
-  
-  puts "Models version 1"
-  puts ""A3[[ARIMA]]:::green
+
+  puts 'Models'
+  A3[[ARIMA]]:::green
   B3[[TimeGPT]]:::green
   C3[[NLinear/DLinear]]:::green
 
