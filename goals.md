@@ -1,9 +1,9 @@
 ``` mermaid
 
-%% Colors %%
-classDef blue fill:#2374f7,stroke:#000,stroke-width:2px,color:#fff
-
 flowchart LR
+
+  %% Colors %%
+  classDef blue fill:#2374f7,stroke:#000,stroke-width:2px,color:#fff
 
   %% goals %%
 
