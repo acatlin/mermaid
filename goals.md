@@ -4,10 +4,11 @@ flowchart LR
 
   %% Colors %%
   classDef blue fill:#2374f7,stroke:#000,stroke-width:2px,color:#fff
+  classDef orange fill:#fc822b,stroke:#000,stroke-width:2px,color:#fff
 
   %% goals %%
 
-  G[(Goals)]:::blue ==> P[(Projects)]
+  G[(Goals)]:::blue ==> P[(Projects)]:::orange
 
   P --o |Has| PD(Deadline)
   PD --x |Is| MT(Met)
