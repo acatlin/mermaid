@@ -8,7 +8,8 @@ flowchart LR
 
   P --o |Has| PD(Deadline)
   PD --x |Is| MT(Met)
-  PD --- |Is| OV(Overdue) --> |Push|  FOV{4 Days}
+  PD --- |Is| OV(Overdue)
+  OV --> |Push| FOV{4 Days}
 
   P --> PT(Tasks)
 
