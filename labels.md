@@ -61,7 +61,7 @@ graph TD
   classDef magenta fill:magenta,stroke:#000,stroke-width:2px,color:#fff
 
   A4(Daily):::orange
-  B4(Monthly:::orange
+  B4(Monthly):::orange
   C4(Quarterly):::orange
 
 ```
