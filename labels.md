@@ -25,8 +25,6 @@ graph TD
 
 ```mermaid
 
-# Models
-
 graph TD
 
   %% Colors %%
