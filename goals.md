@@ -4,10 +4,11 @@ flowchart LR
 
   %% goals %%
 
-  G[(Goals)] --> P[(Projects)]
-  P --> PT(Tasks)
-  PT -->|Is| IC([Incomplete]) & C([Complete])
+  G[(Goals)] ==> P[(Projects)]
+  P --o PT(Tasks)
+  PT --x|Is| IC([Incomplete])
+  PT -->[Is] ([Complete])
   C --> R[[Review]]
-  R -->|Creates New| G
+  R -..->|Creates New| G
 
 ```
