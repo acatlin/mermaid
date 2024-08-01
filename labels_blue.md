@@ -50,7 +50,7 @@ graph TD
 
   A3[[ARIMA]]:::blue
   B3[[TimeGPT]]:::blue
-  C3[[NLinear/DLinear]]:::blue
+  C3([NLinear/DLinear]}:::blue
 
 ```
 
