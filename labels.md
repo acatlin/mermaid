@@ -33,6 +33,7 @@ graph TD
   A2([Synthetic Data]):::s_p
   B2([Moody's 20+ Year Aaa Bond]):::s_p
   C2([EUR->USD Exchange Rates]):::s_p
+  C3([EUR->USD Exchange Rates]):::blue
 ```
 
 
