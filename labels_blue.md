@@ -12,9 +12,9 @@ graph TD
 
   
 
-  A1[(Synthetic Data)]:::s_p
-  B1[(Moody's 20+ Year Aaa Bond)]:::s_p
-  C1[(EUR->USD Exchange Rates)]:::s_p
+  A1[(Synthetic Data)]:::blue
+  B1[(Moody's 20+ Year Aaa Bond)]:::blue
+  C1[(EUR->USD Exchange Rates)]:::blue
 
 ```
 
@@ -30,10 +30,9 @@ graph TD
   classDef magenta fill:magenta,stroke:#000,stroke-width:2px,color:#fff
   classDef s_p fill:#cf0029,stroke:#000,stroke-width:2px,color:#f7f7f7
 
-  A2([Synthetic Data]):::s_p
-  B2([Moody's 20+ Year Aaa Bond]):::s_p
-  C2([EUR->USD Exchange Rates]):::s_p
-  C3([EUR->USD Exchange Rates]):::blue
+  A2([Synthetic Data]):::blue
+  B2([Moody's 20+ Year Aaa Bond]):::blue
+  C2([EUR->USD Exchange Rates]):::blue
 ```
 
 
