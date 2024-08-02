@@ -48,8 +48,8 @@ graph TD
   classDef magenta fill:magenta,stroke:#000,stroke-width:2px,color:#fff
   classDef s_p fill:#cf0029,stroke:#000,stroke-width:2px,color:#f7f7f7
 
-  A3[(ARIMA)]:::blue
-  B3[(TimeGPT)]:::blue
+  A3([ARIMA]):::blue
+  B3([TimeGPT]):::blue
   C3([NLinear/DLinear]):::blue
 
 ```
